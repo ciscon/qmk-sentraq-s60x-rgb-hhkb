@@ -14,6 +14,6 @@
 
 
 #undef DEBOUNCE
-#define DEBOUNCE 2
+#define DEBOUNCE 5
 #undef USB_POLLING_INTERVAL_MS
 #define USB_POLLING_INTERVAL_MS 1

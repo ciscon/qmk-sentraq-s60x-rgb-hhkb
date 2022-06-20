@@ -35,6 +35,6 @@ AUTO_SHIFT_MODIFIERS = no
 EXTRAFLAGS += -flto
 OPT=2
 
-DEBOUNCE_TYPE=sym_eager_pk
+DEBOUNCE_TYPE=asym_eager_defer_pk
 
 LAYOUTS = 60_hhkb
