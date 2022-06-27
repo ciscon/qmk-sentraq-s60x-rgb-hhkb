@@ -46,6 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 void keyboard_post_init_user(void) {
-  //backlight_level(1);
-  rgblight_setrgb_range(HSV_RED, 0, 255);
+  rgblight_enable_noeeprom(); // Enables RGB, without saving settings
+  rgblight_sethsv_noeeprom(HSV_RED);
+  rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
 }
